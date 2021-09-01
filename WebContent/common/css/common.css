@@ -1,0 +1,298 @@
+/* @font-face{font-family:'210CL'; src:url('.ttf')} */
+
+/* BODY .210CL {font-family:'210CL';} */
+
+a:link { color :  #003333; text-decoration : none; }
+a:hover { color : #cc3300; font-weight : bold; }
+/* a:hover {box-shadow: 0 0 5px 2px rgba(0, 140, 186, 0.5); } */
+a:active { color : #ff0000; text-decoration : underline; }
+/* a:visited { color : #996600; text-decoration : none; } */
+
+
+
+table caption { display: none; }
+
+/*16년 7월 추가 시작*/
+BODY .TRHOVER tr:hover{background-color:#c0c0c0}
+BODY .POS_REL{position: relative;}
+BODY .POS_ABS{position: absolute;} 
+
+/*img 태그 관련*/
+BODY .IMG_BR8PX{border-radius: 8px;} /*이미지에 원*/
+BODY .IMG_BR50{border-radius: 50%;} /*이미지 동그란 원*/
+BODY .IMG_THUM8PX{ border: 1px solid #ddd; border-radius: 8px; padding: 5px;} /*이미지 테두리*/
+BODY .IMG_FIL{-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */filter: grayscale(100%);}
+
+/*button 태그 관련*/
+BODY .BTN_R {background-color: #f44336;} /*RED*/
+BODY .BTN_G {background-color: #4CAF50;} /*GREEN*/
+BODY .BTN_B {background-color: #008CBA;} /*BLUE*/
+BODY .BTN_G2 {background-color: #e7e7e7;} /*GRAY*/
+BODY .BTN_B2 {background-color: #555555;} /*BLACK*/
+
+BODY .BTN_RW {background-color: white; color: black; border: 2px solid #f44336;}
+BODY .BTN_GW {background-color: white; color: black; border: 2px solid #4CAF50;}
+BODY .BTN_BW {background-color: white; color: black; border: 2px solid #008CBA;}
+BODY .BTN_G2W {background-color: white; color: black; border: 2px solid #e7e7e7;}
+BODY .BTN_B2W {background-color: white; color: black; border: 2px solid #555555;}
+
+BODY .BTN_GRID1{cursor: pointer; display: inline-block; position: relative; transition: 0.5s;}
+BODY .BTN_GRID1:after {content: '★'; position: absolute; top: 0; right: -20px; transition: 0.5s; opacity: 1;}
+BODY .BTN_GRID1:hover { padding-right: 25px; opacity: 1;}
+ 
+BODY .BTN_STYLE1 {padding: 6px 15px; display: inline-block; font-size: 16px; cursor: pointer; color: white; border:none;}
+BODY .BTN_STYLE2 {padding: 6px 15px; display: inline-block; font-size: 16px; cursor: pointer; color: black;}
+BODY .BTN_RADIUS15PX {border-radius:15px;}
+
+/*그림자 효과*/
+BODY .SHADOW1:hover {box-shadow: 0 0 5px 2px rgba(0, 140, 186, 0.5);}
+
+/*투명 효과*/
+BODY .OPACITY {opacity: 0.6; cursor: not-allowed;}
+
+
+
+/*16년 7월 추가 끝*/
+
+
+
+BODY .W100 {width: 100%;}
+BODY .W10 {width: 10%;}
+BODY .W15 {width: 15%;}
+BODY .W20 {width: 20%;}
+BODY .W25 {width: 25%;}
+BODY .W30 {width: 30%;}
+BODY .W40 {width: 40%;}
+BODY .W50 {width: 50%;}
+BODY .W90 {width: 90%;}
+
+BODY .H20PX {height: 20px;}
+BODY .H30PX {height: 30px;}
+BODY .H50PX {height: 50px;}
+BODY .H70PX {height: 70px;}
+BODY .H100PX {height: 100px;}
+BODY .H200PX {height: 200px;}
+
+
+BODY .W20PX {width: 20px;}
+BODY .W50PX {width: 50px;}
+BODY .W100PX {width: 100px;}
+BODY .W200PX {width: 200px;}
+BODY .W250PX {width: 250px;}
+BODY .W300PX {width: 300px;}
+BODY .W400PX {width: 400px;}
+BODY .W850PX {width: 850px;}
+BODY .W1000PX {width: 1000px;}
+BODY .W1200PX {width: 1200px;}
+BODY .W1400PX {width: 1400px;}
+BODY .W1500PX {width: 1500px;}
+BODY .W1800PX {width: 1800px;}
+
+BODY .DN {display: none;}
+BODY .DB {display: block;}
+BODY .DI {display: inline;}
+BODY .DIB {display: inline-block;}
+
+BODY .MP0 {margin: 0; padding: 0;}
+BODY .MAR0 {margin: 0;}
+BODY .MAR5 {margin: 5px;}
+BODY .MAR10 {margin: 10px;}
+BODY .MAR_L5 {margin-left: 5px;}
+BODY .MAR_L10 {margin-left: 10px;}
+BODY .MAR_L50 {margin-left: 50px;}
+BODY .MAR_R5 {margin-right: 5px;}
+BODY .MAR_R10 {margin-right: 10px;}
+BODY .MAR_T5 {margin-top: 5px;}
+BODY .MAR_T10 {margin-top: 10px;}
+BODY .MAR_B5 {margin-bottom: 5px;}
+BODY .MAR_B10 {margin-bottom: 10px;}
+BODY .MAR_TB5 {margin-top: 5px; margin-bottom: 5px;}
+BODY .MAR_AUTO{margin: auto;}
+
+
+BODY .BSB1 {border-bottom:  1px solid #DDDDDD;}
+BODY .BS1 {border:  1px solid #DDDDDD;}
+
+BODY .PAD10 {padding: 10px;}
+
+BODY .ELLIPSIS {overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+
+BODY .TXTOUT {font-size: 0px; text-indent: -999px; *text-indent: 0; line-height: 999px; overflow: hidden;}
+BODY .TXTOUT2 {position: absolute; left: -5000px; font-size: 0px; overflow: hidden;}
+
+BODY .ENGONLY {ime-mode: disabled;}
+BODY .ENGINPUT {ime-mode: inactive;}
+BODY .KORINPUT {ime-mode: active;}
+
+BODY .TAL {text-align: left;}
+BODY .TAC {text-align: center;}
+BODY .TAR {text-align: right;}
+BODY .TAJ {text-align: justify;}
+
+BODY .VAT {vertical-align: top;}
+BODY .VAM {vertical-align: middle;}
+BODY .VAB {vertical-align: bottom;}
+
+BODY .FLOAT_LEFT {float: left;}
+BODY .FLOAT_RIGHT {float: right;}
+
+BODY .FONT_BLUE {color: #004b84;}
+BODY .FONT_BLUE2 {color: #518bb1;}
+BODY .FONT_RED {color: #ff4200;}
+BODY .FONT_RED2 {color: #910101;}
+
+BODY .FONT_GRAY {color: #555;}
+BODY .FONT_GRAY2 {color: #999;}
+
+BODY .FONT_GREEN {color: #007836;}
+BODY .FONT_GREEN2 {color: #53682b;}
+
+BODY .FONT_DOTUM {font-family: Dotum;}
+BODY .FONT_GULIM {font-family: Gulim;}
+BODY .FONT_MGOTHIC {font-family: Malgun Gothic;}
+BODY .FONT_GUNGSUH {font-family: "궁서";}
+
+BODY .FONT_8 {font-size: 8pt;} 		/*11px*/
+BODY .FONT_9 {font-size: 9pt;} 		/*12px*/
+BODY .FONT_10 {font-size: 10.5pt;} 	/*14px*/
+BODY .FONT_12 {font-size: 12pt;}  		/*16px*/
+BODY .FONT_13 {font-size: 13.5pt;} 	/*18px*/
+BODY .FONT_15 {font-size: 15pt;} 		/*20px*/
+
+BODY .FB {font-weight: bold;}
+BODY .FN {font-weight: normal;}
+
+BODY .LS-1 {letter-spacing: -1px;}
+BODY .LINH20 {line-height: 20px;}
+
+BODY .CURP {cursor: pointer;}
+BODY .CURD {cursor: default;}
+
+BODY .CB {clear: both;}
+
+BODY .LINKSTYLE,
+BODY .LINKSTYLE:link
+BODY .LINKSTYLE:active
+BODY .LINKSTYLE:visited {text-decoration: none; color: #333; cursor: pointer;}
+BODY .LINKSTYLE:hover {color: #777;}
+
+BODY .LINKSTYLE2,
+BODY .LINKSTYLE2:link
+BODY .LINKSTYLE2:active
+BODY .LINKSTYLE2:visited {text-decoration: underline; color: #777; cursor: pointer;}
+BODY .LINKSTYLE2:hover {color: #41b1f9;}
+
+BODY .LINKSTYLE3,
+BODY .LINKSTYLE3:link
+BODY .LINKSTYLE3:active
+BODY .LINKSTYLE3:visited {text-decoration: none; color: #999; cursor: pointer;}
+BODY .LINKSTYLE3:hover {color: #555;}
+
+BODY .ULSTYLE0 {list-style: none; margin: 0; padding: 0;}
+BODY .ULSTYLE1 {list-style: none; margin: 0; padding: 0;}
+BODY .ULSTYLE1 li {float: left;}
+BODY .ULSTYLE2 {list-style: none; margin: 0; padding: 0;}
+BODY .ULSTYLE2 li {display: inline-block; *display: inline; *zoom: 1; *margin-right: 3px;}
+
+BODY .ULSTYLE3 {list-style: none; margin: 0; padding: 0;}
+BODY .ULSTYLE3 li {padding: 5px;}
+
+BODY .ULSTYLE4 {list-style:none; float:left; font-size:15px; background-color:blue; color:white; font-weight:900; font-size:18px;}
+
+BODY .ULSTYLE_DISC {list-style-type:disc;}
+BODY .ULSTYLE_CIRCLE {list-style-type:circle;}
+BODY .ULSTYLE_SQUARE {list-style-type:square;}
+
+BODY .DLSTYLE1 {margin: 0; padding: 0;}
+BODY .DLSTYLE1 dt {margin: 0; padding: 0; float: left;}
+BODY .DLSTYLE1 dd {margin: 0; padding: 0; float: left;}
+
+BODY .DLSTYLE2 {margin: 0; padding: 0;}
+BODY .DLSTYLE2 dt {margin: 0; padding: 0; display: inline-block; *display: inline; *zoom: 1; *margin-right: 3px;}
+BODY .DLSTYLE2 dd {margin: 0; padding: 0; display: inline-block; *display: inline; *zoom: 1; *margin-right: 3px;}
+
+BODY .DLSTYLE3 {margin: 0; padding: 0;}
+BODY .DLSTYLE3 dt {display: block;}
+BODY .DLSTYLE3 dd {display: block;}
+
+BODY .DLSTYLE4 {margin: 0; padding: 10px;border: 1px solid #DDD;}
+BODY .DLSTYLE4 dt {display: block;border-bottom: 1px dashed #DDD;padding: 5px;}
+BODY .DLSTYLE4 dd {display: block;padding: 10px;clear: both;}
+
+BODY .TABLESTYLE1 {border-collapse: collapse; margin: 0; padding: 0; border: 1px solid #aaa; line-height: 18px;}
+BODY .TABLESTYLE1 caption {display: none;}
+BODY .TABLESTYLE1 th {background: #f3f3f3; border: 1px solid #aaa; padding: 5px; color: #555;}
+BODY .TABLESTYLE1 td {border: 1px solid #aaa; padding: 5px;}
+
+BODY .TABLESTYLE2 {border-collapse: collapse; margin: 0; padding: 0; border: 1px solid #aaa; line-height: 18px;}
+BODY .TABLESTYLE2 caption {display: none;}
+BODY .TABLESTYLE2 th {background: #e3e3e3 url(images/bg_white_gray.gif) repeat-x; border: 1px solid #aaa; padding: 5px; color:#333;}
+BODY .TABLESTYLE2 td {border: 1px solid #aaa; padding: 5px; vertical-align: bottom;}
+
+BODY .TABLESTYLE3 {border-collapse: collapse; margin: 0; padding: 0; border: 1px solid #9fc6dd; line-height: 18px;}
+BODY .TABLESTYLE3 caption {display: none;}
+BODY .TABLESTYLE3 th {background: #e4f4ff url(images/bg_white_blue.gif) repeat-x; border: 1px solid #9fc6dd; padding: 5px; color:#0069a9;}
+BODY .TABLESTYLE3 td {border: 1px solid #9fc6dd; padding: 5px; vertical-align: bottom;}
+
+BODY .TABLESTYLE4 {border-collapse: collapse; margin: 0; padding: 0; border: 1px solid #7db7d9; line-height: 18px;}
+BODY .TABLESTYLE4 caption {display: none;}
+BODY .TABLESTYLE4 th {background: #a7dffe url(images/bg_lite_blue.gif) 50% 50% repeat-x; border: 1px solid #7db7d9; padding: 5px; color:#005487;}
+BODY .TABLESTYLE4 td {border: 1px solid #7db7d9; padding: 5px; vertical-align: bottom;}
+
+BODY .TABLESTYLE5 {border-collapse: collapse; margin: 0; padding: 0; border: 1px solid #0f679a; line-height: 18px;}
+BODY .TABLESTYLE5 caption {display: none;}
+BODY .TABLESTYLE5 th {background: #0075b9 url(images/bg_lite_blue2.gif) repeat-x; border: 1px solid #0f679a; padding: 5px; color:#fff; text-align:center;}
+BODY .TABLESTYLE5 td {border: 1px solid #0f679a; padding: 5px; vertical-align: bottom;}
+
+BODY .TABLESTYLE6 {border-collapse: collapse; margin: 0; padding: 0; border: 1px solid #ccc; line-height: 18px;}
+BODY .TABLESTYLE6 caption {display: none;}
+BODY .TABLESTYLE6 th {background: #f3f3f3; border: 1px solid #ccc; padding: 5px;}
+BODY .TABLESTYLE6 td {border: 1px solid #ccc; padding: 5px; vertical-align: bottom;}
+
+BODY .TABLESTYLE7 {border-collapse: collapse; border: 1px solid #aaa; line-height: 18px;}
+BODY .TABLESTYLE7 caption {display: none;}
+BODY .TABLESTYLE7 th {border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; color: #333; background: #eee url(images/bg_line_gray.gif) repeat-x;}
+BODY .TABLESTYLE7 td {border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; color: #333; vertical-align: bottom;}
+
+BODY .TABLESTYLE8 {border-collapse: collapse; margin: 0; padding: 0; border: 1px solid #aaa; line-height: 18px;}
+BODY .TABLESTYLE8 caption {display: none;}
+BODY .TABLESTYLE8 th {background: #f3f3f3; border-bottom: 1px dashed #aaa; padding: 5px; color: #555;}
+BODY .TABLESTYLE8 td {border-bottom: 1px dashed #aaa; padding: 5px; vertical-align: bottom;}
+
+BODY .TABLESTYLE9 {border-collapse: collapse; margin: 0; padding: 0; line-height: 18px;}
+BODY .TABLESTYLE9 caption {display: none;}
+BODY .TABLESTYLE9 th {border: 1px solid #e0e0e0; height: 30px; padding: 5px; color: #555; background: #fff url(/css/images/table_header1.gif) 0 bottom repeat-x; font-weight: normal;}
+BODY .TABLESTYLE9 td {padding: 5px; border: 1px solid #e0e0e0; color: #666; vertical-align: bottom;}
+
+BODY .TABLESTYLE_1 {border-collapse: collapse; padding: 0; line-height: 18px; background: url(images/bg_lite_gray2.gif) 0 -4px repeat-x; }
+BODY .TABLESTYLE_1 th {height: 30px; line-height: 30px; color: #555; background: url(images/bbs_divide_line.gif) right center no-repeat; border-top: 1px solid #aaa; border-bottom: 1px solid #777;}
+BODY .TABLESTYLE_1 .FIRST_COL {border-left: 1px solid #aaa;}
+BODY .TABLESTYLE_1 .LAST_COL {border-right: 1px solid #777; background: none;}
+BODY .TABLESTYLE_1 td {min-height: 25px; _height: 25px; line-height: 25px; border-bottom: 1px solid #ccc; color: #333; vertical-align: bottom;}
+
+BODY .TABLESTYLE_2 {border-collapse: collapse; padding: 0; line-height: 18px;}
+BODY .TABLESTYLE_2 th {height: 30px; line-height: 30px; color: #555; background: url(images/bg_lite_gray2.gif) repeat-x; border-top: 3px solid #777777; border-bottom: 1px solid #d2d2d2;}
+BODY .TABLESTYLE_2 .FIRST_COL {border-left: 0;}
+BODY .TABLESTYLE_2 .LAST_COL {border-right: 0; background: none;}
+BODY .TABLESTYLE_2 td {min-height: 25px; _height: 25px; line-height: 25px; padding: 0 5px; border-bottom: 1px solid #d2d2d2; color: #333; vertical-align: bottom;}
+
+
+BODY .INPUTSTYLE2 {height: 17px; line-height: 17px; padding-left: 2px; border: 2px solid #555; font-size: 9pt; vertical-align: middle;}
+BODY .INPUTSTYLE2:focus {border-color: #111;}
+
+BODY .INPUTSTYLE3 {height: 17px; line-height: 17px; padding-left: 2px; border: 1px solid #999; font-size: 9pt; vertical-align: middle;}
+BODY .INPUTSTYLE3:focus {border-color: #555;}
+
+BODY .INPUTSTYLE4 {height: 23px; line-height: 23px; padding-left: 2px; border: 5px solid #005898; background: #f9f9f9; font-size: 12pt; font-family: dotum; font-weight: bold; vertical-align: middle;}
+BODY .INPUTSTYLE4:focus {background: #fff;}
+
+BODY .INPUTSTYLE5 {height: 15px; line-height: 15px; padding-left: 2px; border: 2px solid #555; font-size: 9pt; vertical-align: middle;}
+BODY .INPUTSTYLE5:focus {border-color: #111;}
+
+BODY .INPUTSTYLE6 {height: 17px; line-height: 17px; padding-left: 2px; border: 1px solid #aaa; font-size: 9pt; vertical-align: middle;}
+BODY .INPUTSTYLE6:focus {border-color: #777;}
+
+BODY .INPUTSTYLE1 {border: 1px solid #CFCFCF; color: #737373;height: 24px;margin-bottom: 1px;vertical-align: middle;}
+BODY .INPUTSTYLE1:focus {border-color: #111;}
+BODY .SELECTSTYLE1 {border: 1px solid #CFCFCF;color: #737373; margin-bottom: 1px; padding: 4px 4px 4px 6px;vertical-align: middle;}
+BODY .NO_RESULT{text-align: center;}
